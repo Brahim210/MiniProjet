@@ -3,7 +3,7 @@
 
 	1) Définition de l'interface (TaskListInterface):
 1.1- L'interface devra étendre l'interface java.rmi.Remote
-1.2- Définir les méthodes qui seront exposées au travers de RMI
+1.2- Définir les méthodes qui seront exposées au travers de RMI 
 1.2- les méthodes exposées devront être capables de propager une exception de type java.rmi.RemoteException
 
 	2) Implémentation de l'interface:
