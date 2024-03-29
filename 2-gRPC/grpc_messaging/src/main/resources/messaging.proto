@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "com.brahim.grpc";
+
+service MessagingService {
+    rpc SendMessage(MessageRequest) returns (MessageResponse);
+    rpc ReceiveMessage(stream MessageRequest) returns (stream MessageResponse);
+}
+
+message MessageRequest {
+    string sender = 1;
+    string recipient = 2;
+    string message = 3;
+}
+
+message MessageResponse {
+    string sender = 1;
+    string message = 2;
+}

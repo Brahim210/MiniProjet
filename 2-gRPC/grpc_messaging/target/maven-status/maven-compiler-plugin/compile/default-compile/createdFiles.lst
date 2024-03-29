@@ -1,0 +1,11 @@
+server\MessagingServer$1.class
+com\brahim\grpc\MessagingServiceGrpc$1.class
+client\MessagingClient$1.class
+server\MessagingServer$MessagingServiceImpl.class
+client\MessagingClient$2.class
+com\brahim\grpc\MessagingServiceGrpc$MessagingServiceMethodDescriptorSupplier.class
+com\brahim\grpc\MessagingServiceGrpc$MessagingServiceBlockingStub.class
+server\MessagingServer$MessagingServiceImpl$1.class
+client\MessagingClient.class
+com\brahim\grpc\MessagingServiceGrpc$MessagingServiceFileDescriptorSupplier.class
+server\MessagingServer.class
