@@ -1,5 +1,5 @@
-#Mini Projet
-------------------I- Java RMI:------------------------------------------------------------------------------------------------------------
+#MiniProjet
+------------------I- Java RMI:
 
 	1) Définition de l'interface (TaskListInterface):
 1.1- L'interface devra étendre l'interface java.rmi.Remote "\n"
@@ -25,7 +25,7 @@ Elle sera référencée par notre registry côté serveur
 6.3- Démarrer le client RMI
 6.4- Vérifier le bon fonctionnement
 
-------------------II- gRPC:---------------------------------------------------------------------------------------------------------------
+------------------II- gRPC:
 
 	1) Définition du service:
 1.1- Création d'un fichier .proto (messaging.proto)
@@ -60,7 +60,7 @@ Elle sera référencée par notre registry côté serveur
 
 rq: La génération des interfaces client et serveur gRPC se fait à partir de définition de service .proto
 
-------------------III- Sockets:-----------------------------------------------------------------------------------------------------------
+------------------III- Sockets:
 
 	1) Implémentation du socket serveur (ChatServer):
 1.1- Instanciation d'un socket serveur moyennant moyenneant le constructeur du ServerSocket qui demande de spécifier un port
